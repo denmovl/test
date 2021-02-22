@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+}
+
+.star {
+  cursor: pointer;
+
+  &:hover i.material-icons {
+    color: red;
+  }
+}
+
+i.material-icons {
+  width: 26px;
+}
+
+.selected {
+  color: red;
+}

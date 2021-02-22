@@ -1,0 +1,8 @@
+<div
+  class="star"
+  *ngFor="let star of starCount"
+  [class.selected]="isSelected(star)"
+  (click)="selectStar(star)"
+>
+  <i class="material-icons">{{isSelected(star) ? 'star' : 'star_outline'}}</i>
+</div>
